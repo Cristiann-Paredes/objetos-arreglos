@@ -1,4 +1,4 @@
-/Fundamentos y destructuración
+//Fundamentos y destructuración
 const fruta = {
     nombre: "Manzana",
     color: "Rojo",
