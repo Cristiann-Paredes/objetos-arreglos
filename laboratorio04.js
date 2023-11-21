@@ -21,10 +21,10 @@ console.log("Precio:", fruta.precio);
 console.log("¿Está disponible?", fruta.estaDisponible);
 
 //DESESTRUCTURACION
-const persona = {
-    nombre: "Ana",
+const juan = {
+    nombre1: "Ana",
     apellido: "García",
-    edad: 30,
+    edad1: 30,
     direccion: {
         ciudad: "Madrid",
         codigoPostal: "28001"
@@ -32,11 +32,11 @@ const persona = {
 };
 
 // Desestructuración de un objeto
-const { nombre, apellido, edad, direccion: { ciudad, codigoPostal } } = persona;
+const { nombre1, apellido, edad1, direccion: { ciudad, codigoPostal } } = juan;
 
-console.log(nombre);
+console.log(nombre1);
 console.log(apellido);
-console.log(edad);
+console.log(edad1);
 console.log(ciudad);
 console.log(codigoPostal);
 
